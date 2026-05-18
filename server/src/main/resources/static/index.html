@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um Convite Especial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="farm-background">
+        <div class="sun"></div>
+        <div class="grass"></div>
+        <div class="cloud cloud1"></div>
+        <div class="cloud cloud2"></div>
+    </div>
+
+    <div class="container">
+        <h1 class="title">Uma surpresa especial para você...</h1>
+
+        <!-- EGG STAGE -->
+        <div class="egg-container" id="eggContainer">
+            <div class="egg" id="egg">🥚</div>
+            <p class="instruction">Clique no ovo para ver o que tem dentro!</p>
+        </div>
+
+        <!-- CARD STAGE (Hidden initially) -->
+        <div class="card hidden" id="card">
+            <div class="card-inner" id="cardInner">
+                <!-- FRONT: Professor Photo -->
+                <div class="card-front">
+                    <div class="photo-wrapper">
+                        <img src="https://via.placeholder.com/300x400?text=Sua+Foto+Aqui" alt="Professor" class="teacher-photo" id="teacherPhoto">
+                    </div>
+                    <p class="photo-instruction">Clique na foto para abrir o convite!</p>
+                </div>
+                <!-- BACK: The Invitation -->
+                <div class="card-back">
+                    <h2>Convite Especial</h2>
+                    <p>Prezado Professor <strong>[Nome do Professor]</strong>,</p>
+                    <p>Sua dedicação e ensinamentos marcaram nossa jornada. Por isso, gostaríamos de fazer um pedido muito especial...</p>
+                    <p class="main-question">Você aceita ser nosso <strong>Paraninfo</strong>?</p>
+                    <p class="signature">Com carinho, seus alunos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
